@@ -6,6 +6,7 @@
     <Section4 />
     <Section5 />
     <Section6 />
+    <Section7 />
   </div>
 </template>
 
@@ -16,7 +17,8 @@ import Section3 from "~/components/pages/index/Section3";
 import Section4 from "~/components/pages/index/Section4";
 import Section5 from "~/components/pages/index/Section5";
 import Section6 from "~/components/pages/index/Section6";
+import Section7 from "~/components/pages/index/Section7";
 export default {
-  components: { Section1, Section2, Section3, Section4, Section5, Section6 }
+  components: { Section1, Section2, Section3, Section4, Section5, Section6, Section7 }
 };
 </script>

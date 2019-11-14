@@ -15,7 +15,7 @@
         <div class="col-md-4">
           <div
             class="project img  d-flex justify-content-center align-items-center"
-            style="background-image: url(https://picsum.photos/800/1200?1);"
+            style="background-image: url(https://picsum.photos/800/600?1);"
           >
             <div class="overlay"></div>
             <div class="text text-center p-4">
@@ -27,7 +27,7 @@
         <div class="col-md-4">
           <div
             class="project img  d-flex justify-content-center align-items-center"
-            style="background-image: url(https://picsum.photos/800/1200?2);"
+            style="background-image: url(https://picsum.photos/800/600?2);"
           >
             <div class="overlay"></div>
             <div class="text text-center p-4">
@@ -40,7 +40,7 @@
         <div class="col-md-4">
           <div
             class="project img  d-flex justify-content-center align-items-center"
-            style="background-image: url(https://picsum.photos/800/1200?3);"
+            style="background-image: url(https://picsum.photos/800/600?3);"
           >
             <div class="overlay"></div>
             <div class="text text-center p-4">
@@ -52,7 +52,7 @@
         <div class="col-md-4">
           <div
             class="project img  d-flex justify-content-center align-items-center"
-            style="background-image: url(https://picsum.photos/800/1200?4);"
+            style="background-image: url(https://picsum.photos/800/600?4);"
           >
             <div class="overlay"></div>
             <div class="text text-center p-4">
@@ -64,7 +64,7 @@
         <div class="col-md-4">
           <div
             class="project img  d-flex justify-content-center align-items-center"
-            style="background-image: url(https://picsum.photos/800/1200?5);"
+            style="background-image: url(https://picsum.photos/800/600?5);"
           >
             <div class="overlay"></div>
             <div class="text text-center p-4">
@@ -76,7 +76,7 @@
         <div class="col-md-4">
           <div
             class="project img  d-flex justify-content-center align-items-center"
-            style="background-image: url(https://picsum.photos/800/1200?6);"
+            style="background-image: url(https://picsum.photos/800/600?6);"
           >
             <div class="overlay"></div>
             <div class="text text-center p-4">
