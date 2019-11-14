@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Section1 />
+    <header-section />
     <about-section />
     <resume-section />
     <project-section />
@@ -10,14 +10,14 @@
 </template>
 
 <script>
-import Section1 from "~/components/pages/index/Section1";
+import HeaderSection from "~/components/pages/index/HeaderSection";
 import AboutSection from "~/components/pages/index/AboutSection";
 import ResumeSection from "~/components/pages/index/ResumeSection";
 import ProjectSection from "~/components/pages/index/ProjectSection";
-import Section6 from "~/components/pages/index/Section6";
+import CounterSection from "~/components/pages/index/CounterSection";
 import Section7 from "~/components/pages/index/Section7";
 import ContactSection from "~/components/pages/index/ContactSection";
 export default {
-  components: { Section1, AboutSection, ResumeSection, ProjectSection, Section6, Section7, ContactSection }
+  components: { HeaderSection, AboutSection, ResumeSection, ProjectSection, CounterSection, Section7, ContactSection }
 };
 </script>
