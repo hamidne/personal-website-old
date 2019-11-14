@@ -27,9 +27,7 @@
     </b-container>
     <a class="mouse">
       <a href="#" class="mouse-icon">
-        <div class="mouse-wheel">
-          <span class="ion-ios-arrow-round-down">77</span>
-        </div>
+        <div class="mouse-wheel">&#129031;</div>
       </a>
     </a>
   </section>

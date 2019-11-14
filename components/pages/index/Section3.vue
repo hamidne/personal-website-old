@@ -5,7 +5,7 @@
         <b-col>
           <a href="#" class="partner"
             ><img
-              src="~/assets/img/tools/partner-1.png"
+              src="https://laravel.com/img/logomark.min.svg"
               class="img-fluid"
               alt="Colorlib Template"
           /></a>
@@ -13,7 +13,7 @@
         <b-col>
           <a href="#" class="partner"
             ><img
-              src="~/assets/img/tools/partner-2.png"
+              src="https://nuxtjs.org/logos/nuxt-square.svg"
               class="img-fluid"
               alt="Colorlib Template"
           /></a>
@@ -21,7 +21,7 @@
         <b-col>
           <a href="#" class="partner"
             ><img
-              src="~/assets/img/tools/partner-3.png"
+              src="https://miro.medium.com/max/400/1*zyNSb0UXhP8TfxYbj-GNWg.png"
               class="img-fluid"
               alt="Colorlib Template"
           /></a>
@@ -29,7 +29,7 @@
         <b-col>
           <a href="#" class="partner"
             ><img
-              src="~/assets/img/tools/partner-4.png"
+              src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg"
               class="img-fluid"
               alt="Colorlib Template"
           /></a>
@@ -37,7 +37,7 @@
         <b-col>
           <a href="#" class="partner"
             ><img
-              src="~/assets/img/tools/partner-5.png"
+              src="http://www.finsmes.com/wp-content/uploads/2016/04/nginx.png"
               class="img-fluid"
               alt="Colorlib Template"
           /></a>
@@ -51,4 +51,8 @@
 export default {};
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+.partner img {
+  width: 5vw;
+}
+</style>

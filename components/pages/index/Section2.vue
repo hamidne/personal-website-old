@@ -46,7 +46,7 @@
                 <span class="number" data-number="120">0</span>
               </p>
               <p>
-                <b-button variant="primary py-2 px-3">دانلود رزومه</b-button>
+                <b-button variant="primary py-1 px-3">دانلود رزومه</b-button>
               </p>
             </div>
           </div>
