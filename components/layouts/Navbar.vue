@@ -14,13 +14,12 @@
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav class="mr-auto text-white">
-          <b-nav-item href="#">Home</b-nav-item>
-          <b-nav-item href="#">About</b-nav-item>
-          <b-nav-item href="#">Resume</b-nav-item>
-          <b-nav-item href="#">Services</b-nav-item>
-          <b-nav-item href="#">Projects</b-nav-item>
-          <b-nav-item href="#">My Blog</b-nav-item>
-          <b-nav-item href="#">Contact</b-nav-item>
+          <b-nav-item href="#">خانه</b-nav-item>
+          <b-nav-item href="#">درباره من</b-nav-item>
+          <b-nav-item href="#">رزومه</b-nav-item>
+          <b-nav-item href="#">پروژه ها</b-nav-item>
+          <b-nav-item href="#">بلاگ من</b-nav-item>
+          <b-nav-item href="#">ارتباط با من</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-container>
