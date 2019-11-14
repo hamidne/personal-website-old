@@ -17,28 +17,24 @@
         <b-col md="6" class="pr-md-5 py-5">
           <b-row class="justify-content-start pb-3">
             <b-col md="12" class="heading-section ">
-              <h1 class="big">About</h1>
-              <h2 class="mb-4">About Me</h2>
+              <h1 class="big">درباره</h1>
+              <h2 class="mb-4">درباره من</h2>
               <p>
-                A small river named Duden flows by their place and supplies it
-                with the necessary regelialia.
+                رودخانه كوچك به نام دادن در جاي خود جاري مي شود و رجياليا لازم
+                را تأمين مي كند.
               </p>
               <ul class="about-info mt-4 px-md-0 px-2">
                 <li class="d-flex">
-                  <span>Name:</span> <span>Ronaldo Fredrickson</span>
+                  <span>نام:</span> <span>حمید نصر</span>
                 </li>
                 <li class="d-flex">
-                  <span>Date of birth:</span> <span>November 28, 1989</span>
+                  <span>محل سکونت:</span> <span>اصفهان</span>
                 </li>
                 <li class="d-flex">
-                  <span>Address:</span> <span>San Francisco CA 97987 USA</span>
-                </li>
-                <li class="d-flex"><span>Zip code:</span> <span>1000</span></li>
-                <li class="d-flex">
-                  <span>Email:</span> <span>ronaldo@gmail.com</span>
+                  <span>آدرس ایمیل:</span> <span>HamidNE@mail.ru</span>
                 </li>
                 <li class="d-flex">
-                  <span>Phone: </span> <span>+1-2234-5678-9-0</span>
+                  <span>شماره موبایل: </span> <span dir="ltr">[+98] 920-408-4800</span>
                 </li>
               </ul>
             </b-col>
@@ -46,11 +42,11 @@
           <div class="counter-wrap d-flex mt-md-3">
             <div class="text">
               <p class="mb-4">
+                <span>پروژه های انجام شده</span>
                 <span class="number" data-number="120">0</span>
-                <span>Project complete</span>
               </p>
               <p>
-                <b-button variant="primary py-2 px-3">Download CV</b-button>
+                <b-button variant="primary py-2 px-3">دانلود رزومه</b-button>
               </p>
             </div>
           </div>
