@@ -14,9 +14,9 @@
             ></div>
           </div>
         </b-col>
-        <b-col md="6" class="pl-md-5 py-5">
+        <b-col md="6" class="pr-md-5 py-5">
           <b-row class="justify-content-start pb-3">
-            <b-col md="12" class="heading-section ftco-animate">
+            <b-col md="12" class="heading-section ">
               <h1 class="big">About</h1>
               <h2 class="mb-4">About Me</h2>
               <p>
@@ -43,14 +43,14 @@
               </ul>
             </b-col>
           </b-row>
-          <div class="counter-wrap ftco-animate d-flex mt-md-3">
+          <div class="counter-wrap d-flex mt-md-3">
             <div class="text">
               <p class="mb-4">
                 <span class="number" data-number="120">0</span>
                 <span>Project complete</span>
               </p>
               <p>
-                <a href="#" class="btn btn-primary py-3 px-3">Download CV</a>
+                <b-button variant="primary py-2 px-3">Download CV</b-button>
               </p>
             </div>
           </div>

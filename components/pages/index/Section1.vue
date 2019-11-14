@@ -1,12 +1,12 @@
 <template>
   <section class="hero-wrap js-fullheight">
     <div class="overlay"></div>
-    <b-container class="container">
+    <b-container>
       <b-row class="no-gutters slider-text js-fullheight justify-content-center align-items-center">
-        <b-col lg="8" md="6" class="ftco-animate d-flex align-items-center">
+        <b-col lg="8" md="6" class=" d-flex align-items-center">
           <div class="text text-center">
             <span class="subheading">Hey! I am</span>
-            <h1>Ronaldo Fredrickson</h1>
+            <h1>حمید نصر</h1>
             <h2>
               I'm a
               <span
