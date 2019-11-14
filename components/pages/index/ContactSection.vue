@@ -1,108 +1,117 @@
 <template>
   <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
-    <div class="container">
-      <div class="row justify-content-center mb-5 pb-3">
-        <div class="col-md-7 heading-section text-center">
-          <h1 class="big big-2">Contact</h1>
-          <h2 class="mb-4">Contact Me</h2>
+    <b-container>
+      <b-row class="justify-content-center mb-5 pb-3">
+        <b-col md="7" class="heading-section text-center">
+          <h1 class="big big-2">تماس</h1>
+          <h2 class="mb-4">تماس با من</h2>
           <p>
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia
+            خوشحال می شوم با شما هم صحبت بشوم.
           </p>
-        </div>
-      </div>
+        </b-col>
+      </b-row>
 
-      <div class="row d-flex contact-info mb-5">
-        <div class="col-md-6 col-lg-3 d-flex">
+      <b-row class="d-flex contact-info mb-5">
+        <b-col md="6" lg="3" class="d-flex">
           <div class="align-self-stretch box text-center p-4 shadow">
             <div class="icon d-flex align-items-center justify-content-center">
               <span class="icon-map-signs"></span>
             </div>
             <div>
-              <h3 class="mb-4">Address</h3>
-              <p>198 West 21th Street, Suite 721 New York NY 10016</p>
+              <h3 class="mb-4">آدرس</h3>
+              <p>اصفهان</p>
             </div>
           </div>
-        </div>
-        <div class="col-md-6 col-lg-3 d-flex">
+        </b-col>
+        <b-col md="6" lg="3" class="d-flex">
           <div class="align-self-stretch box text-center p-4 shadow">
             <div class="icon d-flex align-items-center justify-content-center">
               <span class="icon-phone2"></span>
             </div>
             <div>
-              <h3 class="mb-4">Contact Number</h3>
-              <p><a href="tel://1234567920">+ 1235 2355 98</a></p>
+              <h3 class="mb-4">شماره موبایل</h3>
+              <p>
+                <a href="tel://00989204084800" dir="ltr">+98 920 408 4800</a>
+              </p>
             </div>
           </div>
-        </div>
-        <div class="col-md-6 col-lg-3 d-flex">
+        </b-col>
+        <b-col md="6" lg="3" class="d-flex">
           <div class="align-self-stretch box text-center p-4 shadow">
             <div class="icon d-flex align-items-center justify-content-center">
               <span class="icon-paper-plane"></span>
             </div>
             <div>
-              <h3 class="mb-4">Email Address</h3>
-              <p><a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+              <h3 class="mb-4">آدرس ایمیل</h3>
+              <p><a href="mailto:hamidne@mail.ru">hamidne@mail.ru</a></p>
             </div>
           </div>
-        </div>
-        <div class="col-md-6 col-lg-3 d-flex">
+        </b-col>
+        <b-col md="6" lg="3" class="d-flex">
           <div class="align-self-stretch box text-center p-4 shadow">
             <div class="icon d-flex align-items-center justify-content-center">
               <span class="icon-globe"></span>
             </div>
             <div>
-              <h3 class="mb-4">Website</h3>
-              <p><a href="#">yoursite.com</a></p>
+              <h3 class="mb-4">وب سایت</h3>
+              <p><a href="https://hamidne.ir">hamidne.ir</a></p>
             </div>
           </div>
-        </div>
-      </div>
+        </b-col>
+      </b-row>
 
-      <div class="row no-gutters block-9">
-        <div class="col-md-6 order-md-last d-flex">
+      <b-row class="no-gutters block-9">
+        <b-col md="6" class="order-md-last d-flex">
           <form action="#" class="bg-light p-4 p-md-5 contact-form">
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Your Name" />
+              <input
+                type="text"
+                name="name"
+                class="form-control"
+                placeholder="نام و نام خانوادگی"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                name="email"
+                class="form-control"
+                placeholder="آدرس ایمیل"
+              />
             </div>
             <div class="form-group">
               <input
                 type="text"
+                name="subject"
                 class="form-control"
-                placeholder="Your Email"
+                placeholder="موضوع"
               />
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Subject" />
-            </div>
-            <div class="form-group">
               <textarea
-                name=""
                 id=""
                 cols="30"
                 rows="7"
+                name="message"
                 class="form-control"
-                placeholder="Message"
+                placeholder="پیام"
               ></textarea>
             </div>
             <div class="form-group">
               <input
                 type="submit"
-                value="Send Message"
-                class="btn btn-primary py-3 px-5"
+                value="ارسال پیام"
+                class="btn btn-primary py-1 px-3"
               />
             </div>
           </form>
-        </div>
+        </b-col>
 
-        <div class="col-md-6 d-flex">
-          <div
-            class="img"
-            id="personal-image"
-          ></div>
-        </div>
-      </div>
-    </div>
+        <b-col md="6" class="d-flex">
+          <div class="img" id="personal-image"></div>
+        </b-col>
+      </b-row>
+    </b-container>
   </section>
 </template>
 
