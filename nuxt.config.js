@@ -15,7 +15,7 @@ export default {
 
   loading: { color: "#fff" },
 
-  css: ["@/assets/scss/app.scss"],
+  css: ["@/assets/scss/app.scss", "shabnam-font/dist/font-face.css"],
 
   buildModules: [],
 
