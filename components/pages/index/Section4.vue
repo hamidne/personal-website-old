@@ -5,7 +5,7 @@
         <b-col md="3">
           <nav id="navi">
             <ul>
-              <li><a href="#page-1">تحصیلات</a></li>
+              <li><a class="current" href="#page-1">تحصیلات</a></li>
               <li><a href="#page-2">تجربیات</a></li>
               <li><a href="#page-3">مهارت ها</a></li>
               <li><a href="#page-4">دستاورد ها</a></li>
@@ -14,21 +14,19 @@
         </b-col>
         <div class="col-md-9">
           <div id="page-1" class="page one">
-            <h2 class="heading">Education</h2>
-            <div class="resume-wrap d-flex ">
+            <h2 class="heading">تحصیلات</h2>
+            <div class="resume-wrap d-flex">
               <div
                 class="icon d-flex align-items-center justify-content-center"
               >
                 <span class="flaticon-ideas"></span>
               </div>
               <div class="text pr-3">
-                <span class="date">2014-2015</span>
-                <h2>Bachelor of Science in Computer Science</h2>
-                <span class="position">Cambridge University</span>
+                <span class="date">1390-1394</span>
+                <h2>دوره دبیرستان</h2>
+                <span class="position">دبیرستان کمال دانشگاه صنعتی اصفهان</span>
                 <p>
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia. It is a paradisematic country,
-                  in which roasted parts of sentences fly into your mouth.
+                  تحصیل در دوره چهار ساله دبیرستان در دبیرستان کمال دانشگاه صنعتی اصفهان در رشته ریاضی و فیزیک.
                 </p>
               </div>
             </div>
@@ -39,54 +37,18 @@
                 <span class="flaticon-ideas"></span>
               </div>
               <div class="text pr-3">
-                <span class="date">2014-2015</span>
-                <h2>Computer Processing Systems/Computer Software</h2>
-                <span class="position">Cambridge University</span>
+                <span class="date">1394-1398</span>
+                <h2>دوره کارشناسی</h2>
+                <span class="position">دانشگاه دولتی شهرکرد</span>
                 <p>
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia. It is a paradisematic country,
-                  in which roasted parts of sentences fly into your mouth.
-                </p>
-              </div>
-            </div>
-            <div class="resume-wrap d-flex ">
-              <div
-                class="icon d-flex align-items-center justify-content-center"
-              >
-                <span class="flaticon-ideas"></span>
-              </div>
-              <div class="text pr-3">
-                <span class="date">2014-2015</span>
-                <h2>Diploma in Computer</h2>
-                <span class="position">Cambridge University</span>
-                <p>
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia. It is a paradisematic country,
-                  in which roasted parts of sentences fly into your mouth.
-                </p>
-              </div>
-            </div>
-            <div class="resume-wrap d-flex ">
-              <div
-                class="icon d-flex align-items-center justify-content-center"
-              >
-                <span class="flaticon-ideas"></span>
-              </div>
-              <div class="text pr-3">
-                <span class="date">2014-2015</span>
-                <h2>Art &amp; Creative Director</h2>
-                <span class="position">Cambridge University</span>
-                <p>
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia. It is a paradisematic country,
-                  in which roasted parts of sentences fly into your mouth.
+                  تحصیل در دوره چهار ساله کارشناسی در دانشگاه دولتی شهرکرد در رشته مهندسی نرم افزار.
                 </p>
               </div>
             </div>
           </div>
 
           <div id="page-2" class="page two">
-            <h2 class="heading">Experience</h2>
+            <h2 class="heading">تجربیات</h2>
             <div class="resume-wrap d-flex ">
               <div
                 class="icon d-flex align-items-center justify-content-center"
