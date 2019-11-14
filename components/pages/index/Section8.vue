@@ -98,7 +98,7 @@
         <div class="col-md-6 d-flex">
           <div
             class="img"
-            style="background-image: url(images/about.jpg);"
+            id="personal-image"
           ></div>
         </div>
       </div>
@@ -110,4 +110,8 @@
 export default {};
 </script>
 
-<style></style>
+<style>
+#personal-image {
+  background-image: url("../../../assets/img/about.jpg");
+}
+</style>
