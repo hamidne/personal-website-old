@@ -1,55 +1,25 @@
+import head from "./config/head";
+import modules from "./config/modules";
+import plugins from "./config/plugins";
+import bootstrapVue from "./config/bootstrapVue";
+import pageTransition from "./config/pageTransition";
 
 export default {
-  mode: 'universal',
-  /*
-  ** Headers of the page
-  */
-  head: {
-    title: process.env.npm_package_name || '',
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
-    ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
-  },
-  /*
-  ** Customize the progress-bar color
-  */
-  loading: { color: '#fff' },
-  /*
-  ** Global CSS
-  */
-  css: [
-  ],
-  /*
-  ** Plugins to load before mounting the App
-  */
-  plugins: [
-  ],
-  /*
-  ** Nuxt.js dev-modules
-  */
-  buildModules: [
-  ],
-  /*
-  ** Nuxt.js modules
-  */
-  modules: [
-    // Doc: https://bootstrap-vue.js.org
-    'bootstrap-vue/nuxt',
-    '@nuxtjs/pwa',
-  ],
-  /*
-  ** Build configuration
-  */
+  mode: "universal",
+
+  head,
+  modules,
+  plugins,
+  bootstrapVue,
+  pageTransition,
+
+  loading: { color: "#fff" },
+
+  css: ["@/assets/scss/app.scss"],
+
+  buildModules: [],
+
   build: {
-    /*
-    ** You can extend webpack config here
-    */
-    extend (config, ctx) {
-    }
+    extend(config, ctx) {}
   }
-}
+};
