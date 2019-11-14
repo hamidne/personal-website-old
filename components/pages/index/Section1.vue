@@ -19,13 +19,13 @@
         </b-col>
       </b-row>
     </b-container>
-    <div class="mouse">
+    <a class="mouse">
       <a href="#" class="mouse-icon">
         <div class="mouse-wheel">
           <span class="ion-ios-arrow-round-down"></span>
         </div>
       </a>
-    </div>
+    </a>
   </section>
 </template>
 
@@ -33,4 +33,8 @@
 export default {};
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+section {
+  min-height: 100vh
+}
+</style>
