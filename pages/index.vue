@@ -10,14 +10,22 @@
 </template>
 
 <script>
-import HeaderSection from "~/components/pages/index/HeaderSection";
+import Section7 from "~/components/pages/index/Section7";
 import AboutSection from "~/components/pages/index/AboutSection";
 import ResumeSection from "~/components/pages/index/ResumeSection";
+import HeaderSection from "~/components/pages/index/HeaderSection";
 import ProjectSection from "~/components/pages/index/ProjectSection";
 import CounterSection from "~/components/pages/index/CounterSection";
-import Section7 from "~/components/pages/index/Section7";
 import ContactSection from "~/components/pages/index/ContactSection";
 export default {
-  components: { HeaderSection, AboutSection, ResumeSection, ProjectSection, CounterSection, Section7, ContactSection }
+  components: {
+    Section7,
+    AboutSection,
+    HeaderSection,
+    ResumeSection,
+    ProjectSection,
+    CounterSection,
+    ContactSection
+  }
 };
 </script>
