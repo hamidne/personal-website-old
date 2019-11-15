@@ -1,3 +1,4 @@
 export default [
-  { src: "~/plugins/vue-typer.js", ssr: false }
+  { src: "~/plugins/aos.js", ssr: false },
+  { src: "~/plugins/vue-typer.js", ssr: false },
 ];

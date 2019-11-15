@@ -7,9 +7,15 @@
       >
         <b-col lg="8" md="6" class=" d-flex align-items-center">
           <div class="text text-center">
-            <span class="subheading">سلام، من</span>
-            <h1>حمید نصر</h1>
-            <h2 class="d-flex font-20 justify-content-center">
+            <span class="subheading" data-aos="fade-up" data-aos-delay="300"
+              >سلام، من</span
+            >
+            <h1 data-aos="fade-up" data-aos-delay="700">حمید نصر</h1>
+            <h2
+              class="d-flex font-20 justify-content-center"
+              data-aos="fade-up"
+              data-aos-delay="1000"
+            >
               <vue-typed-js
                 class="font-weight-semi-bold"
                 :strings="strings"
