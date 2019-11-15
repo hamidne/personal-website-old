@@ -15,10 +15,7 @@
         <b-col md="6" class="order-md-last d-flex">
           <form
             netlify
-            method="POST"
             name="contact"
-            data-netlify="true"
-            netlify-honeypot="bot-field"
             class="bg-light p-4 p-md-5 contact-form"
           >
             <div class="form-group">
