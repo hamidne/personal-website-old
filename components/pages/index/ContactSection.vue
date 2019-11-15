@@ -119,8 +119,8 @@
 export default {};
 </script>
 
-<style>
+<style lang="scss" scoped>
 #personal-image {
-  background-image: url("../../../assets/img/about.jpg");
+  background-image: url("../../../assets/img/contact.jpeg");
 }
 </style>
