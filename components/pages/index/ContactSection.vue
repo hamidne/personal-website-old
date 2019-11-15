@@ -14,7 +14,7 @@
       <b-row class="no-gutters block-9">
         <b-col md="6" class="order-md-last d-flex">
           <form
-            method="POST"
+            netlify
             name="contact"
             data-netlify="true"
             netlify-honeypot="bot-field"
