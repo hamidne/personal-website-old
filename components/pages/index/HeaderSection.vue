@@ -18,15 +18,17 @@
                 :start-delay="1000"
                 :back-speed="20"
               >
-                <span class="typing font-weight-normal text-decoration-none" />
-              </vue-typed-js>هستم.
+                <span
+                  class="typing font-weight-normal text-decoration-none"
+                /> </vue-typed-js
+              >هستم.
             </h2>
           </div>
         </b-col>
       </b-row>
     </b-container>
     <a class="mouse">
-      <a href="#" class="mouse-icon">
+      <a v-scroll-to="'#about-section'" class="mouse-icon">
         <div class="mouse-wheel">&#129031;</div>
       </a>
     </a>
