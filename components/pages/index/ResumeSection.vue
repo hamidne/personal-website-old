@@ -14,35 +14,23 @@
         <div class="col-md-9">
           <div id="page-1" class="page one">
             <h2 class="heading">تحصیلات</h2>
-            <div class="resume-wrap d-flex">
+            <div
+              class="resume-wrap d-flex"
+              v-for="(education, index) in educations"
+              :key="index"
+            >
               <div
                 class="icon d-flex align-items-center justify-content-center"
               >
                 <span class="flaticon-ideas"></span>
               </div>
               <div class="text pr-3">
-                <span class="date">1390-1394</span>
-                <h2>دوره دبیرستان</h2>
-                <span class="position">دبیرستان کمال دانشگاه صنعتی اصفهان</span>
-                <p>
+                <span class="date" v-text="education.date"></span>
+                <h2 v-text="education.title">دوره دبیرستان</h2>
+                <span class="position" v-text="education.position">دبیرستان کمال دانشگاه صنعتی اصفهان</span>
+                <p v-text="education.desciprtion">
                   تحصیل در دوره چهار ساله دبیرستان در دبیرستان کمال دانشگاه
                   صنعتی اصفهان در رشته ریاضی و فیزیک.
-                </p>
-              </div>
-            </div>
-            <div class="resume-wrap d-flex ">
-              <div
-                class="icon d-flex align-items-center justify-content-center"
-              >
-                <span class="flaticon-ideas"></span>
-              </div>
-              <div class="text pr-3">
-                <span class="date">1394-1398</span>
-                <h2>دوره کارشناسی</h2>
-                <span class="position">دانشگاه دولتی شهرکرد</span>
-                <p>
-                  تحصیل در دوره چهار ساله کارشناسی در دانشگاه دولتی شهرکرد در
-                  رشته مهندسی نرم افزار.
                 </p>
               </div>
             </div>
@@ -182,10 +170,12 @@
 </template>
 
 <script>
+import educations from "~/data/educations";
 import experiences from "~/data/experiences";
 export default {
   data() {
     return {
+      educations,
       experiences
     };
   }
