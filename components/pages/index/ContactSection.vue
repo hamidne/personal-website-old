@@ -11,58 +11,15 @@
         </b-col>
       </b-row>
 
-      <b-row class="d-flex contact-info mb-5">
-        <b-col md="6" lg="3" class="d-flex">
-          <div class="align-self-stretch box text-center p-4 shadow">
-            <div class="icon d-flex align-items-center justify-content-center">
-              <span class="icon-map-signs"></span>
-            </div>
-            <div>
-              <h3 class="mb-4">آدرس</h3>
-              <p>اصفهان</p>
-            </div>
-          </div>
-        </b-col>
-        <b-col md="6" lg="3" class="d-flex">
-          <div class="align-self-stretch box text-center p-4 shadow">
-            <div class="icon d-flex align-items-center justify-content-center">
-              <span class="icon-phone2"></span>
-            </div>
-            <div>
-              <h3 class="mb-4">شماره موبایل</h3>
-              <p>
-                <a href="tel://00989204084800" dir="ltr">+98 920 408 4800</a>
-              </p>
-            </div>
-          </div>
-        </b-col>
-        <b-col md="6" lg="3" class="d-flex">
-          <div class="align-self-stretch box text-center p-4 shadow">
-            <div class="icon d-flex align-items-center justify-content-center">
-              <span class="icon-paper-plane"></span>
-            </div>
-            <div>
-              <h3 class="mb-4">آدرس ایمیل</h3>
-              <p><a href="mailto:hamidne@mail.ru">hamidne@mail.ru</a></p>
-            </div>
-          </div>
-        </b-col>
-        <b-col md="6" lg="3" class="d-flex">
-          <div class="align-self-stretch box text-center p-4 shadow">
-            <div class="icon d-flex align-items-center justify-content-center">
-              <span class="icon-globe"></span>
-            </div>
-            <div>
-              <h3 class="mb-4">وب سایت</h3>
-              <p><a href="https://hamidne.ir">hamidne.ir</a></p>
-            </div>
-          </div>
-        </b-col>
-      </b-row>
-
       <b-row class="no-gutters block-9">
         <b-col md="6" class="order-md-last d-flex">
-          <form action="#" class="bg-light p-4 p-md-5 contact-form">
+          <form
+            method="POST"
+            name="contact"
+            data-netlify="true"
+            netlify-honeypot="bot-field"
+            class="bg-light p-4 p-md-5 contact-form"
+          >
             <div class="form-group">
               <input
                 type="text"
