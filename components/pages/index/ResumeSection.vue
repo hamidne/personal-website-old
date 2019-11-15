@@ -25,7 +25,8 @@
                 <h2>دوره دبیرستان</h2>
                 <span class="position">دبیرستان کمال دانشگاه صنعتی اصفهان</span>
                 <p>
-                  تحصیل در دوره چهار ساله دبیرستان در دبیرستان کمال دانشگاه صنعتی اصفهان در رشته ریاضی و فیزیک.
+                  تحصیل در دوره چهار ساله دبیرستان در دبیرستان کمال دانشگاه
+                  صنعتی اصفهان در رشته ریاضی و فیزیک.
                 </p>
               </div>
             </div>
@@ -40,7 +41,8 @@
                 <h2>دوره کارشناسی</h2>
                 <span class="position">دانشگاه دولتی شهرکرد</span>
                 <p>
-                  تحصیل در دوره چهار ساله کارشناسی در دانشگاه دولتی شهرکرد در رشته مهندسی نرم افزار.
+                  تحصیل در دوره چهار ساله کارشناسی در دانشگاه دولتی شهرکرد در
+                  رشته مهندسی نرم افزار.
                 </p>
               </div>
             </div>
@@ -48,106 +50,21 @@
 
           <div id="page-2" class="page two">
             <h2 class="heading">تجربیات</h2>
-            <div class="resume-wrap d-flex ">
+            <div
+              class="resume-wrap d-flex"
+              v-for="(experience, index) in experiences"
+              :key="index"
+            >
               <div
                 class="icon d-flex align-items-center justify-content-center"
               >
                 <span class="flaticon-ideas"></span>
               </div>
               <div class="text pr-3">
-                <span class="date">2014-2015</span>
-                <h2>Software Developer</h2>
-                <span class="position">Cambridge University</span>
-                <p>
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia. It is a paradisematic country,
-                  in which roasted parts of sentences fly into your mouth.
-                </p>
-              </div>
-            </div>
-            <div class="resume-wrap d-flex ">
-              <div
-                class="icon d-flex align-items-center justify-content-center"
-              >
-                <span class="flaticon-ideas"></span>
-              </div>
-              <div class="text pr-3">
-                <span class="date">2014-2015</span>
-                <h2>Web Designer</h2>
-                <span class="position">Cambridge University</span>
-                <p>
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia. It is a paradisematic country,
-                  in which roasted parts of sentences fly into your mouth.
-                </p>
-              </div>
-            </div>
-            <div class="resume-wrap d-flex ">
-              <div
-                class="icon d-flex align-items-center justify-content-center"
-              >
-                <span class="flaticon-ideas"></span>
-              </div>
-              <div class="text pr-3">
-                <span class="date">2014-2015</span>
-                <h2>Web Marketing</h2>
-                <span class="position">Cambridge University</span>
-                <p>
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia. It is a paradisematic country,
-                  in which roasted parts of sentences fly into your mouth.
-                </p>
-              </div>
-            </div>
-            <div class="resume-wrap d-flex ">
-              <div
-                class="icon d-flex align-items-center justify-content-center"
-              >
-                <span class="flaticon-ideas"></span>
-              </div>
-              <div class="text pr-3">
-                <span class="date">2014-2015</span>
-                <h2>Art &amp; Creative Director</h2>
-                <span class="position">Side Tech</span>
-                <p>
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia. It is a paradisematic country,
-                  in which roasted parts of sentences fly into your mouth.
-                </p>
-              </div>
-            </div>
-            <div class="resume-wrap d-flex ">
-              <div
-                class="icon d-flex align-items-center justify-content-center"
-              >
-                <span class="flaticon-ideas"></span>
-              </div>
-              <div class="text pr-3">
-                <span class="date">2014-2015</span>
-                <h2>Wordpress Developer</h2>
-                <span class="position">Cambridge University</span>
-                <p>
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia. It is a paradisematic country,
-                  in which roasted parts of sentences fly into your mouth.
-                </p>
-              </div>
-            </div>
-            <div class="resume-wrap d-flex ">
-              <div
-                class="icon d-flex align-items-center justify-content-center"
-              >
-                <span class="flaticon-ideas"></span>
-              </div>
-              <div class="text pr-3">
-                <span class="date">2017-2018</span>
-                <h2>UI/UX Designer</h2>
-                <span class="position">Cambridge University</span>
-                <p>
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia. It is a paradisematic country,
-                  in which roasted parts of sentences fly into your mouth.
-                </p>
+                <span class="date" v-text="experience.date" />
+                <h2 v-text="experience.title" />
+                <span class="position" v-text="experience.position" />
+                <p v-text="experience.description" />
               </div>
             </div>
           </div>
@@ -265,7 +182,14 @@
 </template>
 
 <script>
-export default {};
+import experiences from "~/data/experiences";
+export default {
+  data() {
+    return {
+      experiences
+    };
+  }
+};
 </script>
 
 <style></style>
