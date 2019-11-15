@@ -14,20 +14,21 @@
       <div class="row no-gutters">
         <div class="col-md-4">
           <div
+            id="cafimafi-project"
             class="project img  d-flex justify-content-center align-items-center"
-            style="background-image: url(https://picsum.photos/800/600?1);"
           >
             <div class="overlay"></div>
             <div class="text text-center p-4">
-              <h3><a href="#">Branding &amp; Illustration Design</a></h3>
-              <span>Web Design</span>
+              <h3><a href="#">پروژه فروشگاه قهوه کافی مافی</a></h3>
+              <span>Web Design</span> |
+              <span>Web Design</span> |
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div
+            id="tarhan-project"
             class="project img  d-flex justify-content-center align-items-center"
-            style="background-image: url(https://picsum.photos/800/600?2);"
           >
             <div class="overlay"></div>
             <div class="text text-center p-4">
@@ -39,8 +40,8 @@
 
         <div class="col-md-4">
           <div
+            id="gerama-project"
             class="project img  d-flex justify-content-center align-items-center"
-            style="background-image: url(https://picsum.photos/800/600?3);"
           >
             <div class="overlay"></div>
             <div class="text text-center p-4">
@@ -51,8 +52,8 @@
         </div>
         <div class="col-md-4">
           <div
+            id="irangfx-project"
             class="project img  d-flex justify-content-center align-items-center"
-            style="background-image: url(https://picsum.photos/800/600?4);"
           >
             <div class="overlay"></div>
             <div class="text text-center p-4">
@@ -63,8 +64,8 @@
         </div>
         <div class="col-md-4">
           <div
+            id="taakproject-project"
             class="project img  d-flex justify-content-center align-items-center"
-            style="background-image: url(https://picsum.photos/800/600?5);"
           >
             <div class="overlay"></div>
             <div class="text text-center p-4">
@@ -75,8 +76,8 @@
         </div>
         <div class="col-md-4">
           <div
+            id="vuejsconf-project"
             class="project img  d-flex justify-content-center align-items-center"
-            style="background-image: url(https://picsum.photos/800/600?6);"
           >
             <div class="overlay"></div>
             <div class="text text-center p-4">
@@ -94,4 +95,23 @@
 export default {};
 </script>
 
-<style></style>
+<style>
+#cafimafi-project {
+  background-image: url("../../../assets/img/projects/cafimafi.png");
+}
+#tarhan-project {
+  background-image: url("../../../assets/img/projects/tarhan.png");
+}
+#gerama-project {
+  background-image: url("../../../assets/img/projects/gerama.png");
+}
+#irangfx-project {
+  background-image: url("../../../assets/img/projects/irangfx.png");
+}
+#taakproject-project {
+  background-image: url("../../../assets/img/projects/taakproject.png");
+}
+#vuejsconf-project {
+  background-image: url("../../../assets/img/projects/vuejsconf.png");
+}
+</style>
