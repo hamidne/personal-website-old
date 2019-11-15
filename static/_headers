@@ -1,3 +1,11 @@
 # Headers for that path:
-*.png, *.jpg, *.jpeg, *.svg, *.js, *.css
-   Cache-Control: public, max-age=360000
+/.nuxt/*
+  Cache-Control: public, s-max-age=604800
+/*.css
+  Cache-Control: public, s-max-age=604800
+/*.js
+  Cache-Control: public, s-max-age=604800
+
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block

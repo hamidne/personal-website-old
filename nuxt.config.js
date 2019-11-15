@@ -5,7 +5,7 @@ import bootstrapVue from "./config/bootstrapVue";
 import pageTransition from "./config/pageTransition";
 
 export default {
-  mode: "spa",
+  mode: "universal",
 
   head,
   modules,
