@@ -4,7 +4,7 @@
     class="ftco_navbar ftco-navbar-light site-navbar-target"
   >
     <b-container>
-      <nuxt-link to="/" class="navbar-brand" title="Hamid Nasr">
+      <nuxt-link to="/" class="navbar-brand" title="Hamid Nasr" data-aos="fade-left">
         <span>H</span>amid
       </nuxt-link>
 
@@ -12,7 +12,7 @@
         <span class="oi oi-menu"></span> Menu
       </b-navbar-toggle>
 
-      <b-collapse id="nav-collapse" is-nav>
+      <b-collapse id="nav-collapse" is-nav data-aos="fade-right">
         <b-navbar-nav class="mr-auto text-white">
           <b-nav-item href="#">خانه</b-nav-item>
           <b-nav-item v-scroll-to="'#about-section'">درباره من</b-nav-item>

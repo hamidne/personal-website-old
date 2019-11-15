@@ -11,7 +11,7 @@
         </b-col>
       </b-row>
       <div class="row no-gutters">
-        <div class="col-md-4" v-for="(project, index) in projects" :key="index">
+        <div class="col-md-4" v-for="(project, index) in projects" :key="index" data-aos="fade-up" :data-aos-delay="index * 200" data-aos-duration="600">
           <div
             :id="`${project.slug}-project`"
             class="project img  d-flex justify-content-center align-items-center"

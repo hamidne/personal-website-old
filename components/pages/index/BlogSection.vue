@@ -1,6 +1,6 @@
 <template>
   <section class="ftco-section" id="blog-section">
-    <b-container>
+    <b-container data-aos="fade-up">
       <b-row class="justify-content-center mb-5 pb-5">
         <b-col md="7" class="heading-section text-center">
           <h1 class="big big-2">بلاگ</h1>

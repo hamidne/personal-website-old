@@ -1,7 +1,7 @@
 <template>
   <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
     <b-container>
-      <b-row class="justify-content-center mb-5 pb-3">
+      <b-row class="justify-content-center mb-5 pb-3" data-aos="fade-up">
         <b-col md="7" class="heading-section text-center">
           <h1 class="big big-2">تماس</h1>
           <h2 class="mb-4">تماس با من</h2>
@@ -11,7 +11,7 @@
         </b-col>
       </b-row>
 
-      <b-row class="no-gutters block-9">
+      <b-row class="no-gutters block-9" data-aos="fade-up" data-aos-delay="200">
         <b-col md="6" class="order-md-last d-flex">
           <form
             netlify

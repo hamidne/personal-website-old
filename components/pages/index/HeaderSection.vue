@@ -7,7 +7,7 @@
       >
         <b-col lg="8" md="6" class=" d-flex align-items-center">
           <div class="text text-center">
-            <span class="subheading" data-aos="fade-up" data-aos-delay="300"
+            <span class="subheading" data-aos="zoom-in" data-aos-delay="300"
               >سلام، من</span
             >
             <h1 data-aos="fade-up" data-aos-delay="700">حمید نصر</h1>

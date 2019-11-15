@@ -63,6 +63,9 @@
                 class="animate-box"
                 v-for="(skill, index) in skills"
                 :key="index"
+                data-aos="fade-left"
+                data-aos-duration="500"
+                :data-aos-delay="index * 100"
               >
                 - <strong class="font-12" v-text="skill" />
               </b-col>
