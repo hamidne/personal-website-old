@@ -5,13 +5,12 @@
     <resume-section />
     <project-section />
     <blog-section />
-    <Section7 />
+    <collaboration-section />
     <contact-section />
   </div>
 </template>
 
 <script>
-import Section7 from "~/components/pages/index/Section7";
 import BlogSection from "~/components/pages/index/BlogSection";
 import AboutSection from "~/components/pages/index/AboutSection";
 import ResumeSection from "~/components/pages/index/ResumeSection";
@@ -19,17 +18,18 @@ import HeaderSection from "~/components/pages/index/HeaderSection";
 import ProjectSection from "~/components/pages/index/ProjectSection";
 import CounterSection from "~/components/pages/index/CounterSection";
 import ContactSection from "~/components/pages/index/ContactSection";
+import CollaborationSection from "~/components/pages/index/CollaborationSection";
 
 export default {
   components: {
-    Section7,
     BlogSection,
     AboutSection,
     HeaderSection,
     ResumeSection,
     ProjectSection,
     CounterSection,
-    ContactSection
+    ContactSection,
+    CollaborationSection
   }
 };
 </script>
