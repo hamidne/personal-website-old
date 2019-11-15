@@ -15,7 +15,7 @@
         <b-col md="4">
           <b-card
             no-body
-            img-src="https://jadi.net/wp-content/uploads/2019/11/wordsmith-768x402.png"
+            img-src="~/assets/img/blog/wordsmith.png"
             img-alt="Image"
             tag="article"
             class="shadow-sm border-0"

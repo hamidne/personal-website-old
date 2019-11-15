@@ -7,11 +7,10 @@
       <b-row class="row justify-content-center">
         <b-col md="7" class="text-center">
           <h2 class="font-weight-normal">
-            من برای <strong class="text-success">همکاری</strong> در پروژه ها آماده هستم.
+            آماده برای <strong class="text-success">همکاری</strong> در پروژه ها
           </h2>
           <p>
-            رودخانه كوچك به نام دادن در جاي خود جاري مي شود و رجياليا لازم را
-            تأمين مي كند.
+            برای همکاری در تحلیل و ساخت پروژه های نرم افزاری آماده هستم.
           </p>
           <p class="mb-0">
             <b-button variant="primary" class="px-3" v-scroll-to="'#contact-section'">تماس با من</b-button>
