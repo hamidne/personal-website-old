@@ -79,6 +79,6 @@ export default {};
 
 <style lang="scss" scoped>
 #personal-image {
-  background-image: url("../../../assets/img/contact.jpeg");
+  background-image: url("../../../assets/img/contact.jpg");
 }
 </style>
