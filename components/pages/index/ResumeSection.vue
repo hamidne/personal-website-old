@@ -15,6 +15,7 @@
           <div id="page-1" class="page one">
             <h2 class="heading">تحصیلات</h2>
             <div
+              data-aos="fade-up"
               class="resume-wrap d-flex"
               v-for="(education, index) in educations"
               :key="index"
@@ -36,6 +37,7 @@
           <div id="page-2" class="page two">
             <h2 class="heading">تجربیات</h2>
             <div
+              data-aos="fade-up"
               class="resume-wrap d-flex"
               v-for="(experience, index) in experiences"
               :key="index"

@@ -14,7 +14,7 @@
             ></div>
           </div>
         </b-col>
-        <b-col md="6" class="pr-md-5 py-5">
+        <b-col md="6" class="pr-md-5 py-5" data-aos="fade-up">
           <b-row class="justify-content-start pb-3">
             <b-col md="12" class="heading-section ">
               <h1 class="big">درباره</h1>
