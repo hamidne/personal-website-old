@@ -6,8 +6,7 @@
           <h1 class="big big-2">پروژه ها</h1>
           <h2 class="mb-4">پروژه های من</h2>
           <p>
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia
+            بخشی از پروژه هایی که بر روی آن ها کار کرده ام.
           </p>
         </b-col>
       </b-row>
