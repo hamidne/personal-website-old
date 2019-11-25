@@ -35,7 +35,9 @@
     </b-container>
     <a class="mouse">
       <a v-scroll-to="'#about-section'" class="mouse-icon">
-        <div class="mouse-wheel">&#129031;</div>
+        <div class="mouse-wheel">
+          <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="long-arrow-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="svg-inline--fa fa-long-arrow-down fa-w-10 fa-3x"><path fill="currentColor" d="M300.3 327.5l-19.6-19.6c-4.8-4.8-12.5-4.7-17.1.2L186 388.8V44c0-6.6-5.4-12-12-12h-28c-6.6 0-12 5.4-12 12v344.8l-77.5-80.7c-4.7-4.8-12.4-4.9-17.1-.2l-19.6 19.6c-4.7 4.7-4.7 12.3 0 17l131.8 131.8c4.7 4.7 12.3 4.7 17 0l131.8-131.8c4.6-4.7 4.6-12.3-.1-17z" class=""></path></svg>
+        </div>
       </a>
     </a>
   </section>
@@ -50,3 +52,9 @@ export default {
   }
 };
 </script>
+
+<style lang="scss" scoped>
+.mouse-wheel svg {
+  width: 20px;
+}
+</style>
