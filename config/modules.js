@@ -1,5 +1,5 @@
 export default [
-  "@nuxtjs/pwa",
+  // "@nuxtjs/pwa",
   "bootstrap-vue/nuxt",
   ["vue-scrollto/nuxt", { duration: 1000 }]
 ];

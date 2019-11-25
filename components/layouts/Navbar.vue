@@ -4,7 +4,12 @@
     class="ftco_navbar ftco-navbar-light site-navbar-target"
   >
     <b-container>
-      <nuxt-link to="/" class="navbar-brand" title="Hamid Nasr" data-aos="fade-left">
+      <nuxt-link
+        to="/"
+        class="navbar-brand"
+        title="Hamid Nasr"
+        data-aos="fade-left"
+      >
         <span>H</span>amid
       </nuxt-link>
 
@@ -27,7 +32,22 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      scrollPosition: null
+    };
+  },
+  methods: {
+    updateScroll() {
+      console.log(event.target.scrollTop);
+      this.scrollPosition = event.target.scrollTop;
+    }
+  },
+  mounted() {
+    document.addEventListener("scroll", this.updateScroll);
+  }
+};
 </script>
 
 <style></style>
