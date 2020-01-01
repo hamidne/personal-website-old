@@ -4,7 +4,7 @@ $white: #fff;
 $black: #000000;
 $darken: #232931;
 
-$primary: #3e64ff;
+$primary: #ab905f;
 $secondary: #a0f669;
 
 @mixin border-radius($radius) {
@@ -439,7 +439,7 @@ h1, h2, h3, h4, h5,
    	right: 0;
    	bottom: 0;
    	content: '';
-   	background: lighten($primary,34.3%);
+   	background: #f7f4ef;
    	z-index: -1;
    	transform: rotate(45deg);
    }
