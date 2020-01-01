@@ -20,13 +20,16 @@
               <h1 class="big">درباره</h1>
               <h2 class="mb-4">درباره من</h2>
               <p>
-                رودخانه كوچك به نام دادن در جاي خود جاري مي شود و رجياليا لازم
-                را تأمين مي كند.
+                اینجانب حمید نصر برنامه نویس تمام وقت و علاقه مند به مباحث به
+                روز و پیچیده مهندسی نرم افزار بیش از 4 سال است که به صورت تمام
+                وقت مشغول به کار و یادگیری برنامه نویس هستم. برنامه نویسی را با
+                زبان فوق العاده C++ شروع کردم و بیش از 3 سال است که به صورت
+                تخصصی در حوزه وب مشغول هستم. به شدت علاقه مند به فعالیت در حوزه
+                های جدید هستم. از طراحی و برنامه نویس سایت گرفته تا حوزه مدیریت
+                سرور و مباحث کانفیگ و مسائل پیشرفته آن.
               </p>
               <ul class="about-info mt-4 px-md-0 px-2">
-                <li class="d-flex">
-                  <span>نام:</span> <span>حمید نصر</span>
-                </li>
+                <li class="d-flex"><span>نام:</span> <span>حمید نصر</span></li>
                 <li class="d-flex">
                   <span>محل سکونت:</span> <span>اصفهان</span>
                 </li>
@@ -34,7 +37,8 @@
                   <span>آدرس ایمیل:</span> <span>HamidNE@mail.ru</span>
                 </li>
                 <li class="d-flex">
-                  <span>شماره موبایل: </span> <span dir="ltr">[+98] 920-408-4800</span>
+                  <span>شماره موبایل: </span>
+                  <span dir="ltr">[+98] 920 408 4800</span>
                 </li>
               </ul>
             </b-col>
@@ -43,7 +47,7 @@
             <div class="text">
               <p class="mb-4">
                 <span>پروژه های انجام شده</span>
-                <span class="number" data-number="120">0</span>
+                <span class="number" data-number="120">12</span>
               </p>
               <p>
                 <b-button variant="primary py-1 px-3">دانلود رزومه</b-button>
