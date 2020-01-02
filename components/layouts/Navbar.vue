@@ -10,7 +10,7 @@
         title="Hamid Nasr"
         data-aos="fade-left"
       >
-        <span>H</span>amid
+        <span class="pr-1">H</span>amid
       </nuxt-link>
 
       <b-navbar-toggle target="nav-collapse">

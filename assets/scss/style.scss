@@ -309,10 +309,10 @@ h1, h2, h3, h4, h5,
 	z-index: 0;
 	&:after{
 		position: absolute;
-		top: 50%;
-		left: -12px;
-		width: 40px;
-		height: 40px;
+		top: 45%;
+    left: -6px;
+    width: 27px;
+    height: 34px;
 		content: '';
 		background: $primary;
 		z-index: -1;
