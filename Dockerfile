@@ -4,7 +4,10 @@ FROM node:alpine
 WORKDIR /app
 ADD . /app/
 
-RUN rm yarn.lock
+# update and install dependency
+RUN apk update && apk upgrade
+RUN apk add git
+
 RUN yarn
 RUN yarn build
 
